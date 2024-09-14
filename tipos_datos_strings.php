@@ -1,13 +1,13 @@
 <?php
+// Declaración de cadenas de texto
+$cadena1 = 'Hola';  // Usando comillas simples
+$cadena2 = " Mundo";  // Usando comillas dobles
 
-$cadena1 = "Hola";
-$cadean2 = " Mundo";
+// Concatenación de cadenas
+$concatenado = $cadena1 . $cadena2;  // Usando el operador de concatenación '.'
+echo $concatenado;
 
-//CONCATENACION
-$concatenacion =$cadena1 . $cadean2;
-echo $concatenacion;
-
-//USANDO VARIABLES DENTRO DE STRING
+// Uso de una variable dentro de una cadena con comillas dobles
 $nombre = "Eduardo";
-echo "<br>Hola, $nombre!";
+echo "<br>Hola, $nombre!";  // Interpolación de la variable $nombre
 ?>

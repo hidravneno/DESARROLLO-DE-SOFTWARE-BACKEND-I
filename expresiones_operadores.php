@@ -1,14 +1,15 @@
 <?php
+// Declaración de variables numéricas
 $a = 10;
 $b = 5;
 
-// Operadores aritméticos
-echo "Suma: " . ($a + $b) . "<br>";
-echo "Resta: " . ($a - $b) . "<br>";
+// Uso de operadores aritméticos
+echo "Suma: " . ($a + $b) . "<br>";  // Suma
+echo "Resta: " . ($a - $b) . "<br>";  // Resta
 
-// Operadores de comparación
-echo ($a > $b) ? "$a es mayor que $b<br>" : "$b es mayor que $a<br>";
+// Uso de operadores de comparación
+echo ($a > $b) ? "$a es mayor que $b<br>" : "$b es mayor que $a<br>";  // Comparación
 
-// Operadores lógicos
-echo ($a > 0 && $b > 0) ? "Ambos son positivos<br>" : "Uno o ambos son negativos<br>";
+// Uso de operadores lógicos
+echo ($a > 0 && $b > 0) ? "Ambos son positivos<br>" : "Uno o ambos son negativos<br>";  // Lógico AND
 ?>

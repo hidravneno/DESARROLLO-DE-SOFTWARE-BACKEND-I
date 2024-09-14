@@ -1,9 +1,11 @@
 <?php
+// Declaración de variables
 $nombre = "Eduardo";
 $edad = 28;
 
-echo "Mi nombre es $nombre y tengo $edad años.<br>";
+// Uso de variables dentro de una cadena con comillas dobles
+echo "Mi nombre es $nombre y tengo $edad años.<br>";  // Interpolación de variables
 
-// Usando concatenación
-echo "Mi nombre es " . $nombre . " y tengo " . $edad . " años.<br>";
+// Uso de concatenación para formar la misma cadena
+echo "Mi nombre es " . $nombre . " y tengo " . $edad . " años.<br>";  // Concatenación con '.'
 ?>

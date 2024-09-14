@@ -1,21 +1,17 @@
-<?php 
+<?php
+// Declaración de variables numéricas
+$entero = 10;  // Variable de tipo entero
+$flotante = 5.7;  // Variable de tipo flotante
 
-$entero = 10;
-$flotante = 5.7;
+// Realización de operaciones entre entero y flotante
+$suma = $entero + $flotante;  // Suma
+$resta = $entero - $flotante;  // Resta
+$multiplicacion = $entero * $flotante;  // Multiplicación
+$division = $entero / $flotante;  // División
 
-
-//OPERACIONES 
-$suma = $entero + $flotante;
-
-$resta = $entero - $flotante;
-
-$multiplicacion = $suma * $flotante;
-
-$divicion = $entero / $flotante;
-
-
-echo "Suma: $suma <br>";
-echo "Resta: $resta <br>";
-echo "Multiplicacion: $multiplicacion <br>";
-echo "Division: $divicion <br>";
+// Mostrar los resultados
+echo "Suma: $suma<br>";
+echo "Resta: $resta<br>";
+echo "Multiplicación: $multiplicacion<br>";
+echo "División: $division<br>";
 ?>
