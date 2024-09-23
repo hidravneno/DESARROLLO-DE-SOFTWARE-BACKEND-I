@@ -16,10 +16,7 @@
                 <input type="text" class="form-control" id="taskInput" placeholder="Enter a task">
                 <button class="btn btn-primary" id="addTaskBtn">Add Task</button>
             </div>
-            <ul class="list-group" id="taskList">
-                <li class="list-group-item">Task 1</li>
-                <li class="list-group-item">Task 2</li>
-            </ul>
+            
             <button class="btn btn-danger mt-4" id="clearTasksBtn">Clear All Tasks</button>
         </div>
     </div>
